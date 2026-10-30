@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crush-smp-website.pages.dev/sitemap.xml

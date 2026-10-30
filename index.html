@@ -1,17 +1,461 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#160d2c">
-<title>Crush SMP | Minecraft Community</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crush SMP — Minecraft Server</title>
+  <meta name="description" content="Crush SMP — The ultimate Minecraft survival experience. Build, battle, and conquer with a community that never sleeps. Join free today!" />
+  <meta name="keywords" content="Minecraft, SMP, survival, server, Crush SMP, Minecraft server, multiplayer, Java" />
+  <meta name="author" content="Crush SMP" />
+  <meta name="theme-color" content="#ff6b35" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Crush SMP — Minecraft Server" />
+  <meta property="og:description" content="The ultimate Minecraft survival experience. Build, battle, and conquer with a community that never sleeps." />
+  <meta property="og:url" content="https://crush-smp-website.pages.dev" />
+  <meta property="og:site_name" content="Crush SMP" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Crush SMP — Minecraft Server" />
+  <meta name="twitter:description" content="The ultimate Minecraft survival experience. Join free today!" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛏️</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="announcement">⚔️ Welcome to Crush SMP — build, battle, and belong.</div>
-<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">C</span><span>CRUSH <b>SMP</b></span></a><nav><a href="#features" data-en="Features" data-hi="खास बातें">Features</a><a href="#ranks" data-en="Ranks" data-hi="रैंक">Ranks</a><a href="#join" data-en="Join us" data-hi="जुड़ें">Join us</a></nav><div class="header-actions"><button class="language-toggle" id="languageToggle" type="button">हिंदी</button><a class="button button-small" href="https://discord.gg/3XkC357Dn" target="_blank" rel="noopener">Join Discord ↗</a></div></header>
-<main>
-<section class="hero"><div class="hero-content"><p class="eyebrow" data-en="YOUR NEXT MINECRAFT ADVENTURE" data-hi="आपका अगला माइनक्राफ्ट एडवेंचर">YOUR NEXT MINECRAFT ADVENTURE</p><h1 data-en="Make your mark.<br><span>Rule the world.</span>" data-hi="अपनी पहचान बनाओ।<br><span>दुनिया पर राज करो।</span>">Make your mark.<br><span>Rule the world.</span></h1><p class="hero-copy" data-en="Meet your crew, explore new possibilities, and create your own story on Crush SMP." data-hi="अपने दोस्तों से मिलें, नई जगहें खोजें और Crush SMP पर अपनी कहानी बनाएं।">Meet your crew, explore new possibilities, and create your own story on Crush SMP.</p><div class="hero-actions"><a class="button" href="https://discord.gg/3XkC357Dn" target="_blank" rel="noopener">Enter the Discord ↗</a><a class="button button-ghost" href="#ranks">Explore ranks ↓</a></div><div class="hero-note"><span class="status-dot"></span> Community-first • Adventure-ready</div></div><div class="hero-art" role="img" aria-label="Abstract purple block world"><div class="moon"></div><div class="pixel-star star-one">✦</div><div class="pixel-star star-two">✧</div><div class="floating-block block-back"></div><div class="floating-block block-front"></div><div class="platform"><span></span><span></span><span></span><span></span></div><div class="art-caption">CRAFT YOUR LEGACY</div></div></section>
-<section class="section" id="features"><div class="section-heading"><p class="eyebrow">WHY CRUSH SMP?</p><h2>More than a server.</h2><p>A place to play your way and make every session count.</p></div><div class="feature-grid"><article class="feature-card"><div class="feature-icon">⛏</div><h3>Build your world</h3><p>Create, explore, and turn big ideas into blocky reality.</p></article><article class="feature-card"><div class="feature-icon">⚡</div><h3>Find your crew</h3><p>Meet players, team up, and make stories worth sharing.</p></article><article class="feature-card"><div class="feature-icon">♛</div><h3>Earn your status</h3><p>Explore rank concepts and choose your play style.</p></article></div></section>
-<section class="section ranks-section" id="ranks"><div class="section-heading"><p class="eyebrow">RANK COLLECTION</p><h2>Choose your level.</h2><p>These are draft prices for review, not confirmed official prices.</p></div><div class="rank-grid"><article class="rank-card"><div class="rank-symbol">✦</div><p class="rank-tier">STARTER</p><h3>VIP</h3><p class="rank-price">₹99 <small>draft</small></p><button class="button add-rank" data-rank="VIP" data-price="99" type="button">Add to interest list</button></article><article class="rank-card"><div class="rank-symbol">◆</div><p class="rank-tier">ADVENTURER</p><h3>MVP</h3><p class="rank-price">₹199 <small>draft</small></p><button class="button add-rank" data-rank="MVP" data-price="199" type="button">Add to interest list</button></article><article class="rank-card featured"><div class="popular-label">COMMUNITY PICK</div><div class="rank-symbol">♛</div><p class="rank-tier">ELITE</p><h3>Royalty</h3><p class="rank-price">₹349 <small>draft</small></p><button class="button add-rank" data-rank="Royalty" data-price="349" type="button">Add to interest list</button></article><article class="rank-card"><div class="rank-symbol">⚔</div><p class="rank-tier">POWER</p><h3>Overlord</h3><p class="rank-price">₹599 <small>draft</small></p><button class="button add-rank" data-rank="Overlord" data-price="599" type="button">Add to interest list</button></article><article class="rank-card"><div class="rank-symbol">✹</div><p class="rank-tier">LEGEND</p><h3>Champion</h3><p class="rank-price">₹750 <small>draft</small></p><button class="button add-rank" data-rank="Champion" data-price="750" type="button">Add to interest list</button></article></div><p class="price-disclaimer">Rank names, prices, and perks are draft concepts. Confirm details with the server owner before accepting payments. This demo does not process payments.</p><div class="interest-panel" id="interestPanel" hidden><div><h3>Your rank interest list</h3><p id="interestItems"></p></div><button class="button button-ghost" id="clearInterest" type="button">Clear list</button></div></section>
-<section class="join-section" id="join"><div class="join-card"><div><p class="eyebrow">YOUR ADVENTURE STARTS HERE</p><h2>Ready to join the crew?</h2><p>Head to Discord for community updates and server information.</p></div><a class="button" href="https://discord.gg/3XkC357Dn" target="_blank" rel="noopener">Join Crush SMP ↗</a></div></section>
-</main><footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">C</span><span>CRUSH <b>SMP</b></span></a><p>Community website. Not affiliated with Mojang or Microsoft.</p><a href="thanks.html">Sign-up info</a></footer>
-<div class="modal-backdrop" id="discordModal" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="Close" type="button">×</button><p class="eyebrow">CRUSH SMP</p><h2 id="modalTitle">Join the community?</h2><p>Connect with the community on Discord for announcements and updates.</p><a class="button" href="https://discord.gg/3XkC357Dn" target="_blank" rel="noopener">Open Discord ↗</a></div></div>
-</body></html>
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-icon">⛏️</div>
+    <div class="loader-text">CRUSH SMP</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="announcement-inner">
+      <span class="announcement-icon">🎉</span>
+      <span class="announcement-text">Season 1 is now live! Join today and be part of the adventure.</span>
+      <button class="announcement-close" id="announcementClose" aria-label="Close">×</button>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">⛏️</span>
+        <span class="logo-text">CRUSH<span class="accent">SMP</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#ranks" class="nav-link">Ranks</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#rules" class="nav-link">Rules</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#join" class="nav-link">Join</a>
+        <a href="#community" class="nav-link">Community</a>
+      </div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🔥 Now Open — Season 1</div>
+      <h1 class="hero-title">CRUSH SMP</h1>
+      <p class="hero-subtitle">The ultimate Minecraft survival experience. Build, battle, and conquer with a community that never sleeps.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="copyIP()">
+          <span class="btn-icon">📋</span>
+          <span id="ipText">play.crushsmp.net</span>
+        </button>
+        <a href="#join" class="btn-secondary">How to Join</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="5000">0</span><span class="stat-label">Players</span></div>
+        <div class="stat"><span class="stat-num" data-target="99">0</span><span class="stat-label">% Uptime</span></div>
+        <div class="stat"><span class="stat-num" data-target="24">0</span><span class="stat-label">/7 Online</span></div>
+      </div>
+      <div class="hero-version">
+        <span class="version-badge">Java Edition</span>
+        <span class="version-text">1.21+ Recommended</span>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section id="features">
+    <div class="section-header">
+      <span class="section-tag">Why Crush SMP?</span>
+      <h2 class="section-title">Features You'll <span class="accent">Love</span></h2>
+      <p class="section-desc">Everything you need for the perfect survival experience.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card" data-tilt>
+        <div class="feature-icon">🌍</div>
+        <h3>Survival World</h3>
+        <p>Explore a massive, hand-crafted world with custom terrain, dungeons, and hidden treasures waiting to be discovered.</p>
+      </div>
+      <div class="feature-card" data-tilt>
+        <div class="feature-icon">⚔️</div>
+        <h3>Custom Bosses</h3>
+        <p>Challenge unique bosses with special mechanics and earn exclusive rewards you won't find anywhere else.</p>
+      </div>
+      <div class="feature-card" data-tilt>
+        <div class="feature-icon">🏠</div>
+        <h3>Land Claiming</h3>
+        <p>Protect your builds with our easy-to-use claim system. Your creations are safe from griefers and raiders.</p>
+      </div>
+      <div class="feature-card" data-tilt>
+        <div class="feature-icon">🛒</div>
+        <h3>Player Economy</h3>
+        <p>Trade, sell, and build your fortune in a fully player-driven economy with shops, auctions, and jobs.</p>
+      </div>
+      <div class="feature-card" data-tilt>
+        <div class="feature-icon">🎉</div>
+        <h3>Weekly Events</h3>
+        <p>Join exciting events every week — from building contests to PvP tournaments with real prizes.</p>
+      </div>
+      <div class="feature-card" data-tilt>
+        <div class="feature-icon">🤝</div>
+        <h3>Friendly Community</h3>
+        <p>Meet players from around the world in our welcoming, moderated community. Make friends, build together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RANKS ===== -->
+  <section id="ranks">
+    <div class="section-header">
+      <span class="section-tag">Support the Server</span>
+      <h2 class="section-title">Server <span class="accent">Ranks</span></h2>
+      <p class="section-desc">Unlock amazing perks and support the server at the same time.</p>
+    </div>
+    <div class="ranks-grid">
+      <div class="rank-card rank-vip">
+        <div class="rank-badge">⭐</div>
+        <h3 class="rank-name">VIP</h3>
+        <div class="rank-price">$5<span class="rank-period">/month</span></div>
+        <ul class="rank-perks">
+          <li>✅ Colored name in chat</li>
+          <li>✅ Access to /kit vip</li>
+          <li>✅ 3 set homes</li>
+          <li>✅ VIP-only warps</li>
+        </ul>
+        <a href="#" class="btn-rank">Get VIP</a>
+      </div>
+      <div class="rank-card rank-mvp rank-popular">
+        <div class="rank-badge">🌟</div>
+        <div class="rank-popular-tag">Most Popular</div>
+        <h3 class="rank-name">MVP</h3>
+        <div class="rank-price">$10<span class="rank-period">/month</span></div>
+        <ul class="rank-perks">
+          <li>✅ Everything in VIP</li>
+          <li>✅ Access to /fly</li>
+          <li>✅ 5 set homes</li>
+          <li>✅ Custom chat prefix</li>
+          <li>✅ MVP-only warps</li>
+        </ul>
+        <a href="#" class="btn-rank">Get MVP</a>
+      </div>
+      <div class="rank-card rank-mvp-plus">
+        <div class="rank-badge">💎</div>
+        <h3 class="rank-name">MVP+</h3>
+        <div class="rank-price">$20<span class="rank-period">/month</span></div>
+        <ul class="rank-perks">
+          <li>✅ Everything in MVP</li>
+          <li>✅ Access to /heal</li>
+          <li>✅ 10 set homes</li>
+          <li>✅ Particle effects</li>
+          <li>✅ Priority queue access</li>
+        </ul>
+        <a href="#" class="btn-rank">Get MVP+</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery">
+    <div class="section-header">
+      <span class="section-tag">See It In Action</span>
+      <h2 class="section-title">Server <span class="accent">Gallery</span></h2>
+      <p class="section-desc">Check out some amazing builds and moments from our community.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🏰</div>
+        <div class="gallery-overlay"><span>Spawn Castle</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🏘️</div>
+        <div class="gallery-overlay"><span>Player Town</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">⚔️</div>
+        <div class="gallery-overlay"><span>PvP Arena</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🌳</div>
+        <div class="gallery-overlay"><span>Survival World</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">🎪</div>
+        <div class="gallery-overlay"><span>Event Plaza</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">💎</div>
+        <div class="gallery-overlay"><span>Shopping District</span></div>
+      </div>
+    </div>
+    <p class="gallery-note">Want your build featured here? Share it in our Discord!</p>
+  </section>
+
+  <!-- ===== RULES ===== -->
+  <section id="rules">
+    <div class="section-header">
+      <span class="section-tag">Play Fair</span>
+      <h2 class="section-title">Server <span class="accent">Rules</span></h2>
+      <p class="section-desc">Follow these rules to keep the server fun for everyone.</p>
+    </div>
+    <div class="rules-grid">
+      <div class="rule-card">
+        <div class="rule-number">01</div>
+        <h3>No Griefing</h3>
+        <p>Do not destroy or modify other players' builds without permission. Respect others' hard work.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">02</div>
+        <h3>No Cheating</h3>
+        <p>No hacked clients, X-ray, or exploits of any kind. Fair play keeps the game fun for everyone.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">03</div>
+        <h3>Be Respectful</h3>
+        <p>No harassment, hate speech, or bullying. Treat all players with kindness and respect.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">04</div>
+        <h3>No Spamming</h3>
+        <p>Keep chat clean. No spamming, advertising other servers, or excessive caps.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">05</div>
+        <h3>No Stealing</h3>
+        <p>Do not steal from other players' chests or claimed areas. What's theirs is theirs.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-number">06</div>
+        <h3>Have Fun!</h3>
+        <p>Enjoy the game, make friends, and create amazing things. That's what Crush SMP is all about!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq">
+    <div class="section-header">
+      <span class="section-tag">Got Questions?</span>
+      <h2 class="section-title">Frequently Asked <span class="accent">Questions</span></h2>
+      <p class="section-desc">Everything you need to know before joining.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+          <span>Is Crush SMP free to play?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes! Crush SMP is completely free to join and play. Ranks are optional and only provide cosmetic perks — they don't give any pay-to-win advantages.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+          <span>What version of Minecraft do I need?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>We support Minecraft Java Edition 1.21 and above. For the best experience, we recommend using the latest version. Bedrock Edition support is coming soon!</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+          <span>How do I protect my builds?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Use our land claiming system with a golden shovel. Type /claim in-game to get started, and check /help for more claiming commands. Your builds will be fully protected.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+          <span>Can I play with my friends?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely! You can create or join a team, share claims, and build together. Use /team create to start your own team and invite your friends.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+          <span>What happens if I break a rule?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Depending on the severity, you may receive a warning, temporary ban, or permanent ban. Minor offenses start with a warning. Appeals can be made in our Discord server.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+          <span>How do ranks work?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Ranks are optional and provide cosmetic perks like colored names, extra homes, and particle effects. They help support the server costs. No rank gives gameplay advantages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW TO JOIN ===== -->
+  <section id="join">
+    <div class="section-header">
+      <span class="section-tag">Get Started</span>
+      <h2 class="section-title">How to <span class="accent">Join</span></h2>
+      <p class="section-desc">Join in 3 simple steps. It's free and takes less than a minute.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div class="step-icon">📥</div>
+        <h3>Open Minecraft</h3>
+        <p>Launch Minecraft Java Edition (version 1.21+ recommended for the best experience).</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div class="step-icon">🔗</div>
+        <h3>Add Server</h3>
+        <p>Click "Multiplayer" → "Add Server" and enter the server address below.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div class="step-icon">🎮</div>
+        <h3>Play & Enjoy</h3>
+        <p>Click join and start your adventure! Read the rules with /rules when you log in.</p>
+      </div>
+    </div>
+    <div class="join-ip-box">
+      <span class="join-ip-label">Server IP</span>
+      <div class="join-ip-row">
+        <code id="joinIP">play.crushsmp.net</code>
+        <button class="btn-copy" onclick="copyIP()">Copy IP</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMUNITY ===== -->
+  <section id="community">
+    <div class="community-content">
+      <span class="section-tag">Stay Connected</span>
+      <h2 class="section-title">Join Our <span class="accent">Community</span></h2>
+      <p class="section-desc">Follow us on social media for updates, events, giveaways, and more!</p>
+      <div class="community-links">
+        <a href="https://www.instagram.com/crushsmp__" target="_blank" class="community-btn community-instagram">
+          <span class="community-icon">📸</span>
+          <span>Instagram</span>
+        </a>
+        <a href="https://discord.gg/3XkC357Dn" target="_blank" class="community-btn community-discord">
+          <span class="community-icon">💬</span>
+          <span>Discord</span>
+        </a>
+        <a href="#" class="community-btn community-tiktok">
+          <span class="community-icon">🎵</span>
+          <span>TikTok</span>
+        </a>
+        <a href="#" class="community-btn community-youtube">
+          <span class="community-icon">▶️</span>
+          <span>YouTube</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-brand">
+            <span class="logo-icon">⛏️</span>
+            <span class="logo-text">CRUSH<span class="accent">SMP</span></span>
+          </div>
+          <p class="footer-desc">The ultimate Minecraft survival experience. Build, battle, and conquer with a community that never sleeps.</p>
+        </div>
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <a href="#features">Features</a>
+          <a href="#ranks">Ranks</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#rules">Rules</a>
+          <a href="#faq">FAQ</a>
+          <a href="#join">Join</a>
+        </div>
+        <div class="footer-links-col">
+          <h4>Community</h4>
+          <a href="https://discord.gg/3XkC357Dn" target="_blank">Discord</a>
+          <a href="https://www.instagram.com/crushsmp__" target="_blank">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-text">© 2026 Crush SMP. Not affiliated with Mojang or Microsoft.</p>
+        <p class="footer-text">Made with ❤️ for the Crush SMP community</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- ===== INSTAGRAM POP-UP ===== -->
+  <div class="popup-overlay" id="igPopup">
+    <div class="popup-card">
+      <button class="popup-close" id="popupClose" aria-label="Close">×</button>
+      <div class="popup-header">
+        <div class="popup-ig-icon">📸</div>
+        <h2>Follow Us on Instagram!</h2>
+      </div>
+      <p class="popup-message">Get the latest server updates, event announcements, build showcases, and exclusive giveaways — all on our Instagram.</p>
+      <div class="popup-preview">
+        <div class="popup-stat">📱 Daily posts</div>
+        <div class="popup-stat">🎁 Giveaways</div>
+        <div class="popup-stat">🏗️ Build showcases</div>
+      </div>
+      <a href="https://www.instagram.com/crushsmp__" target="_blank" class="popup-follow-btn">
+        <span>📸</span> Follow @crushsmp__
+      </a>
+      <button class="popup-later" id="popupLater">Maybe later</button>
+    </div>
+  </div>
+
+  <!-- ===== COPY IP TOAST ===== -->
+  <div class="toast" id="toast">✅ IP copied to clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
